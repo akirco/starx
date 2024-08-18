@@ -4,11 +4,11 @@
 
 html,
 body {
-  @apply h-full overflow-hidden bg-transparent;
+  @apply h-full overflow-hidden bg-transparent transition-all;
 }
 
 #root {
-  @apply bg-app-bg h-full overflow-hidden rounded-lg;
+  @apply bg-app-bg h-full overflow-hidden rounded-xl;
 }
 
 * {

@@ -14,8 +14,8 @@ pub fn setup(app: &mut App) -> std::result::Result<(), Box<dyn std::error::Error
 
     // windows acrylic effect
     #[cfg(target_os = "windows")]
-    apply_acrylic(&window, Some((11, 13, 25, 50)))
-        .expect("Unsupported platform! 'apply_blur' is only supported on Windows");
+    apply_acrylic(&window, Some((11, 13, 25, 90)))
+        .expect("Unsupported platform! 'apply_acrylic' is only supported on Windows");
 
     // window shadow & window round-coner
     #[cfg(any(windows, target_os = "macos"))]
